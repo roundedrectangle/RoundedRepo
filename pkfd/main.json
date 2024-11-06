@@ -25,7 +25,7 @@
         },
         {
             "name": "test",
-            "bundleid": "meow.doraa.iGestalt.zip",
+            "bundleid": "meow.doraa.iGestalt",
             "author": "dor4a",
             "description": "gestalt",
             "long_description":"long gestalt",
