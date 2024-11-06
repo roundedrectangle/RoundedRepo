@@ -12,6 +12,13 @@
             "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
             "tintColor": "D4A7FC",
             "beta": false,
+
+            "version": "6.0.1",
+            "versionDate": "2024-09-29",
+            "versionDescription": "First AltStore/SideStore release",
+            "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.1/PureKFD.ipa",
+            "size": 1503238554,
+
             "versions": [
                 {
                     "version": "6.0.1",
