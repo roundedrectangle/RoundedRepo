@@ -1,0 +1,27 @@
+{
+    "spec":"1.0",
+    "repotype":"purekfdextended",
+    "name": "RoundedRepo",
+    "description": "RoundedRectangle's Repo",
+    "icon": "",
+    "featured": [
+        
+    ],
+    "packages": [
+        {
+            "name": "MobileAnalyzer",
+            "bundleid": "io.github.roundedrectangle.MobileAnalyzer",
+            "author": "RoundedRectangle",
+            "description": "Read files",
+            "long_description":"Reads protected system files\n\nTo use:\n1. In the stweak ettings, enter the path you would like to read\n2. Apply the tweak\n3. Go to Settings app -> Privacy & Security > Analytics & Improvements > Analytics Data\n4. Select `RoundedAnalytics-file.txt`, where `file` is your file name",
+            "version": "1.0",
+            "icon": "",
+            "banner":"",
+            "path": "tweaks/io.github.roundedrectangle.MobileAnalyzer/main.purekfd",
+            "screenshots":[
+                
+            ],
+            "varOnly":true
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "RoundedRepo",
+    "identifier": "io.github.roundedrectangle",
+    "apps": [
+        {
+            "name": "PureKFD",
+            "bundleIdentifier": "uwu.lrdsnow.purekfdiOS",
+            "developerName": "lrdsnow",
+            "subtitle": "Use the power of KFD, MDC and SR to customize your device!",
+            "localizedDescription" : "Use SparseRestore, MacDirtyCow and Kernel File Descriptor (SR, MDC, KFD) to customize your device! The app is repo-based, meaning tweak limit can be endless even if app gets unmaintained.",
+            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+            "tintColor": "D4A7FC",
+            "beta": false,
+            "versions": [
+                {
+                    "version": "6.0.1",
+                    "date": "2024-09-29",
+                    "localizedDescription": "First AltStore/SideStore release",
+                    "size": 1503238554,
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.1/PureKFD.ipa"
+                }
+            ]
+        }
+    ]
+}
