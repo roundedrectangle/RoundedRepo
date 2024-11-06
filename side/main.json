@@ -1,6 +1,7 @@
 {
     "name": "RoundedRepo",
     "identifier": "io.github.roundedrectangle",
+    "sourceURL": "https://github.com/roundedrectangle/RoundedRepo/raw/refs/heads/main/side/main.json",
     "apps": [
         {
             "name": "PureKFD",
