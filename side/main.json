@@ -9,9 +9,15 @@
             "developerName": "lrdsnow",
             "subtitle": "Use the power of KFD, MDC and SR to customize your device!",
             "localizedDescription" : "Use SparseRestore, MacDirtyCow and Kernel File Descriptor (SR, MDC, KFD) to customize your device! The app is repo-based, meaning tweak limit can be endless even if app gets unmaintained.",
-            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/PureKFD/Assets.xcassets/AppIcon.appiconset/icon.png",
             "tintColor": "D4A7FC",
             "beta": false,
+            "screenshotURLs": [
+                "https://github.com/roundedrectangle/RoundedRepo/raw/refs/heads/main/side/purekfd/1.PNG",
+                "https://github.com/roundedrectangle/RoundedRepo/raw/refs/heads/main/side/purekfd/2.PNG",
+                "https://github.com/roundedrectangle/RoundedRepo/raw/refs/heads/main/side/purekfd/3.PNG",
+                "https://github.com/roundedrectangle/RoundedRepo/raw/refs/heads/main/side/purekfd/4.PNG"
+            ],
 
             "version": "6.0.1",
             "versionDate": "2024-09-29",
