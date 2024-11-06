@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Category</key>
+		<string>SubType</string>
+		<key>Tweaks</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>ST</string>
+				<key>Label</key>
+				<string>Pick a SubType</string>
+				<key>Selection</key>
+				<array>
+					<dict>
+						<key>Label</key>
+						<string>2556 (Dynamic Island, 14 Pro, for iOS 16.0+)</string>
+						<key>Value</key>
+						<string>2556</string>
+					</dict>
+					<dict>
+						<key>Label</key>
+						<string>2796 (Dynamic Island, 14 PM, for iOS 16.0+)</string>
+						<key>Value</key>
+						<string>2796</string>
+					</dict>
+					<dict>
+						<key>Label</key>
+						<string>2622 (Dynamic Island, 16 Pro, for iOS 18.0+)</string>
+						<key>Value</key>
+						<string>2622</string>
+					</dict>
+					<dict>
+						<key>Label</key>
+						<string>2868 (Dynamic Island, 16 PM, for iOS 18.0+)</string>
+						<key>Value</key>
+						<string>2868</string>
+					</dict>
+					<dict>
+						<key>Label</key>
+						<string>2436 (iPhone X gestures)</string>
+						<key>Value</key>
+						<string>2436</string>
+					</dict>
+					<dict>
+						<key>Label</key>
+						<string>2976 (Unknown)</string>
+						<key>Value</key>
+						<string>2976</string>
+					</dict>
+				</array>
+				<key>Type</key>
+				<string>String</string>
+				<key>UI</key>
+				<string>SegmentedControl</string>
+				<key>Value</key>
+				<string>2556</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Category</key>
+		<string>I AM NOT RESPONSIBLE FOR YOUR ISSUES, USE AT YOUR OWN RISK.</string>
+		<key>Description</key>
+		<string>Dynamic Island is for iOS 16.0+ (2622 and 2868 is for iOS 18.0+). DO NOT USE 2976 IF YOU DON'T KNOW WHAT IT IS! (me neither :sob:)</string>
+		<key>Tweaks</key>
+		<array>
+			<dict>
+				<key>Label</key>
+				<string>Discord (@dor4a)</string>
+				<key>UI</key>
+				<string>Link</string>
+				<key>URL</key>
+				<string>https://discord.com/users/455513497288310785</string>
+			</dict>
+			<dict>
+				<key>Label</key>
+				<string>Twitter (@dor44a)</string>
+				<key>UI</key>
+				<string>Link</string>
+				<key>URL</key>
+				<string>https://twitter.com/dor44a</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Category</key>
+		<string>made by doraa with love</string>
+		<key>Tweaks</key>
+		<array>
+			<dict>
+				<key>Label</key>
+				<string>Discord (@dor4a)</string>
+				<key>UI</key>
+				<string>Link</string>
+				<key>URL</key>
+				<string>https://discord.com/users/455513497288310785</string>
+			</dict>
+			<dict>
+				<key>Label</key>
+				<string>Twitter (@d0ra727)</string>
+				<key>UI</key>
+				<string>Link</string>
+				<key>URL</key>
+				<string>https://twitter.com/d0ra727</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

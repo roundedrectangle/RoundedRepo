@@ -22,6 +22,21 @@
                 
             ],
             "varOnly":true
+        },
+        {
+            "name": "test",
+            "bundleid": "meow.doraa.iGestalt.zip",
+            "author": "dor4a",
+            "description": "gestalt",
+            "long_description":"long gestalt",
+            "version": "1.0",
+            "icon": "",
+            "banner":"",
+            "path": "tweaks/io.github.roundedrectangle.MobileAnalyzer/meow.doraa.iGestalt.purekfd",
+            "screenshots":[
+                
+            ],
+            "varOnly":true
         }
     ]
 }
