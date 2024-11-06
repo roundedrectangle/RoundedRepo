@@ -10,9 +10,9 @@ if __name__ == '__main__':
         epilog="Check out the GitHub page for more information."
     )
     parser.add_argument('source', help="Sources of your tweak")
-    # parser.add_argument('bundleid', help="Your tweak's bundle ID")
+    parser.add_argument('bundleid', help="Your tweak's bundle ID")
     parser.add_argument('-b', '--build', help="The directory to put build artefacts to. The default is <source>/../build. When the directory already exists, it gets cleared")
-    parser.add_argument('-d', '--dest', help="The built tweak destenation. The default is <source>/../<bundleid>.purekfd. When the file already exists, it will be overriden.")
+    parser.add_argument('-d', '--dest', help="The built tweak destenation. The default is <source>/../main.purekfd. When the file already exists, it will be overriden.")
     parser.add_argument('-r', '--keep-build', help="Keep the build directory after building the tweak", action='store_true')
     args = parser.parse_args()
 
@@ -22,12 +22,11 @@ if __name__ == '__main__':
             parser.error(f"{name} does not exist at: {path}")
         return path
 
-    # bid = f'{args.bundleid}.purekfd'
-    bid = 'main.purekfd'
+    bid = f'{args.bundleid}.purekfd'
     src = ensure_exists(args.source, 'source')
 
     build = Path(args.build) if args.build else src.parent / 'build'
-    dest = Path(args.dest) if args.dest else src.parent / bid
+    dest = Path(args.dest) if args.dest else src.parent / 'main.purekfd'#bid
 
     shutil.rmtree(build, ignore_errors=True)
     build.mkdir(parents=True, exist_ok=True)
