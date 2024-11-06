@@ -22,15 +22,14 @@ if __name__ == '__main__':
             parser.error(f"{name} does not exist at: {path}")
         return path
 
-    bid = f'{args.bundleid}.purekfd'
     src = ensure_exists(args.source, 'source')
 
     build = Path(args.build) if args.build else src.parent / 'build'
-    dest = Path(args.dest) if args.dest else src.parent / 'main.purekfd'#bid
+    dest = Path(args.dest) if args.dest else src.parent / 'main.purekfd'#f'{args.bundleid}.purekfd'
 
     shutil.rmtree(build, ignore_errors=True)
     build.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(src, build / bid)
+    shutil.copytree(src, build / args.bundleid)
 
     dest.unlink(True)
     archived_dest = Path(shutil.make_archive(dest, 'zip', build))
